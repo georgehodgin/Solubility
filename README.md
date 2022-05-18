@@ -1,5 +1,5 @@
 # Solubility
-hyperparameter optimisation of solubility prediction via various ML methods
+Hyperparameter optimisation of solubility prediction via various ML methods
 
 ## Description
 The Python script CV10_hp_opt.py performs a hyperparameter optimisation 
@@ -22,7 +22,7 @@ conda env create -f conda_environment.yml
 ```
 Activate the conda environment:
 ```{bash}
-conda activate hpopt
+conda activate ML
 ```
 Run the code:
 ```{bash}
