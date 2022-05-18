@@ -1,0 +1,11 @@
+name: hpopt
+dependencies:
+  - python=3.8
+  - optuna=2.10.0
+  - statistics
+  - pandas
+  - sklearn
+  - scipy
+  - os
+  - re
+  - numpy
