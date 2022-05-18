@@ -43,10 +43,10 @@ def main():
     # List of datasets to iterate through
     data_list = [AM1, MNDO, PM3, xtb]
     # Assign output file names
-    outfile_names = ['AM1_hp_opt_metrics.csv',
-                     'MNDO_hp_opt_metrics.csv',
-                     'PM3_hp_opt_metrics.csv',
-                     'xtb_hp_opt_metrics.csv']
+    outfile_names = [os.path.join(dir,'Results/AM1_hp_opt_metrics.csv'),
+                     os.path.join(dir,'Results/MNDO_hp_opt_metrics.csv'),
+                     os.path.join(dir,'Results/PM3_hp_opt_metrics.csv'),
+                     os.path.join(dir,'Results/xtb_hp_opt_metrics.csv')]
     # Request number of trials for the study from the user
     n_trials = int(input("Enter number of trials: "))
     
