@@ -36,10 +36,10 @@ def main():
     
     dir = os.getcwd() #get current directory to join to files
     # Import the training data
-    AM1 = pd.read_csv(os.path.join(dir,"AM1_full_set_logS.csv"))
-    MNDO = pd.read_csv(os.path.join(dir,"MNDO_full_set_logS.csv"))
-    PM3 = pd.read_csv(os.path.join(dir,"PM3_full_set_logS.csv"))
-    xtb = pd.read_csv(os.path.join(dir,"xtb_full_set_logS.csv"))
+    AM1 = pd.read_csv(os.path.join(dir,"CV_data/AM1_full_set_logS.csv"))
+    MNDO = pd.read_csv(os.path.join(dir,"CV_data/MNDO_full_set_logS.csv"))
+    PM3 = pd.read_csv(os.path.join(dir,"CV_data/PM3_full_set_logS.csv"))
+    xtb = pd.read_csv(os.path.join(dir,"CV_data/xtb_full_set_logS.csv"))
     # List of datasets to iterate through
     data_list = [AM1, MNDO, PM3, xtb]
     # Assign output file names
