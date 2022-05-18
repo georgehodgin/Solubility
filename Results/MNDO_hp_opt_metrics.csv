@@ -1,0 +1,2 @@
+number,values_0,values_1,values_2,values_3,datetime_start,datetime_complete,duration,params_hidden_layers,params_n_estimators,params_regressor,state
+2,0.8588463214630584,0.9003983333527921,77.22222222222223,66.22222222222223,2022-05-18 09:56:53.003737,2022-05-18 09:56:55.204998,0 days 00:00:02.201261,,304.0,ET,COMPLETE
